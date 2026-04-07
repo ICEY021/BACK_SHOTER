@@ -6,6 +6,10 @@ console.log(somar(5,2));
 
 function verificarpar(numero) {
     if (numero % 2 === 0){
-        return
+        return "o numero é par"
+    } else {
+        return "o numero é impar"
     }
-}
+};
+
+console.log(verificarpar(8));
